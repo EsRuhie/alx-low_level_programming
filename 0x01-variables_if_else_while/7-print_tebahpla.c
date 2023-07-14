@@ -7,9 +7,12 @@
  */
 int main(void)
 {
-int i;
-for (i = 0; i < 16; i++)
-putchar((i < 10) ? ('0' + i) : ('a' + (i - 10)));
-putchar('\n');
-return (0);
+    int i;
+
+    for (i = 15; i >= 0; i--)
+        putchar('a' + i);
+
+    putchar('\n');
+
+    return (0);
 }
