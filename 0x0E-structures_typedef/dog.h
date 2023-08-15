@@ -1,15 +1,14 @@
 #ifndef DOG_H
 #define DOG_H
 
-
-	/**
-	 * struct dog - A new type describing a dog
-	 * @name: The dog's name
-	 * @age: The dog's age
-	 * @owner: The dog's owner
-	 *
-	 * Description: Longer description
-	 */
+/**
+ * struct dog - A structure representing basic information about a dog.
+ * @name: The name of the dog.
+ * @age: The age of the dog.
+ * @owner: The owner of the dog.
+ *
+ * Description: Holds information about a dog's name, age, and owner.
+ */
 struct dog
 	{
 		char *name;
@@ -30,6 +29,5 @@ struct dog
 	void free_dog(dog_t *d);
 	char *_strcpy(char *dest, char *src);
 	int _strlen(char *s);
-       
 
 	#endif
