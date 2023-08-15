@@ -10,7 +10,7 @@
 	 *
 	 * Description: Longer description
 	 */
-	struct dog
+struct dog
 	{
 		char *name;
 		float age;
@@ -30,6 +30,8 @@
 	void free_dog(dog_t *d);
 	char *_strcpy(char *dest, char *src);
 	int _strlen(char *s);
-
+	int main(void);
+	struct dog;
+       
 
 	#endif
