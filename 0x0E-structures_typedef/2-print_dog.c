@@ -2,11 +2,12 @@
 	#include <stdlib.h>
 	#include "dog.h"
 
-
-	/**
-	 * print_dog - prints a struct dog
-	 * @d: struct dog to print
-	 */
+/**
+ * print_dog - prints the details of a dog
+ * @d: Pointer to the struct dog to be printed
+ *
+ *  Prints dog's name, age, and owner. If NULL, "(nil)" is shown
+ */
 	void print_dog(struct dog *d)
 	{
 		if (d == NULL)
