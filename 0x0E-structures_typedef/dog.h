@@ -30,8 +30,6 @@ struct dog
 	void free_dog(dog_t *d);
 	char *_strcpy(char *dest, char *src);
 	int _strlen(char *s);
-	int main(void);
-	struct dog;
        
 
 	#endif
